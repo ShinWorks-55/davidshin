@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>David Shin — Actor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand-badge" aria-hidden="true"></span>
+        <span>David Shin</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="card hero-left">
+        <div class="kicker">Actor • Performer</div>
+        <h1>David Shin</h1>
+        <p class="subhead">
+          Film / TV / Stage. A clean space for your headshot, reel, credits, and contact —
+          designed to feel modern and casting-friendly.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn primary" href="resume.html">View Resume</a>
+          <a class="btn" href="contact.html">Contact</a>
+          <!-- Optional: add your reel link -->
+          <a class="btn" href="#" onclick="alert('Add your reel link to this button!'); return false;">Watch Reel</a>
+        </div>
+      </div>
+
+      <aside class="card hero-right">
+        <div class="meta">
+          <div class="pill">
+            <div class="label">Location</div>
+            <div class="value">Los Angeles, CA</div>
+          </div>
+          <div class="pill">
+            <div class="label">Representation</div>
+            <div class="value">Available</div>
+          </div>
+          <div class="pill">
+            <div class="label">Union</div>
+            <div class="value">SAG-AFTRA (if applicable)</div>
+          </div>
+          <div class="pill">
+            <div class="label">Email</div>
+            <div class="value"><a href="contact.html">Contact Form</a></div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Headshot</h2>
+          <p>Add your headshot image file and swap this text for an image tag.</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="card section">
+      <h2>Featured</h2>
+      <div class="grid3">
+        <div class="small-card">
+          <h3>Reel</h3>
+          <p>Embed a YouTube/Vimeo reel (casting loves one-click access).</p>
+        </div>
+        <div class="small-card">
+          <h3>Credits</h3>
+          <p>Highlight 3–5 strongest credits and direct to your full resume.</p>
+        </div>
+        <div class="small-card">
+          <h3>Training / Skills</h3>
+          <p>Top training, special skills, accents/languages—quick scan.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> David Shin • All rights reserved
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
