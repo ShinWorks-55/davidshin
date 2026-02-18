@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resume — David Shin</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand-badge" aria-hidden="true"></span>
+        <span>David Shin</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a class="active" href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="card section">
+      <h1 class="page-title">Resume</h1>
+      <p class="helper">
+        Option A: paste your resume content here.<br/>
+        Option B (recommended): upload a PDF named <strong>DavidShin_Resume.pdf</strong> to your repo and link it below.
+      </p>
+
+      <div class="cta-row">
+        <a class="btn primary" href="DavidShin_Resume.pdf" target="_blank" rel="noopener">Open Resume PDF</a>
+        <a class="btn" href="contact.html">Book / Inquire</a>
+      </div>
+
+      <hr class="sep" />
+
+      <h2>Selected Credits</h2>
+      <ul class="list">
+        <li><strong>Role</strong> — Project / Theatre / Director (Year)</li>
+        <li><strong>Role</strong> — Project / Theatre / Director (Year)</li>
+        <li><strong>Role</strong> — Project / Theatre / Director (Year)</li>
+      </ul>
+
+      <hr class="sep" />
+
+      <div class="two-col">
+        <div>
+          <h2>Training</h2>
+          <ul class="list">
+            <li>School / Studio — Teacher</li>
+            <li>On-camera / Scene Study — Teacher</li>
+            <li>Voice / Movement — Teacher</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Skills</h2>
+          <ul class="list">
+            <li>Special skills (stage combat, instruments, sports, etc.)</li>
+            <li>Accents / languages</li>
+            <li>Driver’s license / passport (if relevant)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> David Shin
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
